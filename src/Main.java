@@ -49,10 +49,48 @@ public class Main {
         int totalClasses = totalCans / 6;
         int whitePaint = totalClasses *2;
         int brownPaint = totalClasses *4;
-        System.out.println("В школе, где " + totalClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски.");
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + whitePaint
+                + " банок белой краски и " + brownPaint + " банок коричневой краски.");
 
         // Задача №6
+        byte banana = 2;
+        short milk = 200;
+        byte iceCream =2;
+        byte egg = 4;
+        int weightBanana = banana * 80;
+        int weightMilk = milk / 100 * 105;
+        int weightIceCream = iceCream * 100;
+        int weightEgg = egg * 70;
+        int totalWweightice = weightBanana + weightMilk + weightIceCream + weightEgg;
+        float totalWweighticeGram = (float) totalWweightice;
+        float totalWweighticeKilogram = totalWweighticeGram / 1000;
+        System.out.println("Вес спорзавтрака равен " + totalWweightice + " грамм, или "
+                + totalWweighticeKilogram + " килограмм.");
 
+        // Задача №7
+        int twoHundredFifty = 7 * 1000 / 250;
+        int fiveHundred = 7 * 1000 / 500;
+        int averageDays = (twoHundredFifty + fiveHundred) / 2;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то похудеет на 7 кг за "
+        + twoHundredFifty + " дней, а если на 500 грамм , то за " + fiveHundred + " дней. Среднее же количество "
+                + averageDays + " день");
+
+        // Задача №8
+        int masha = 67760;
+        int denis = 83690;
+        int christina = 76230;
+        double mashaIncrease = masha + masha * 0.1;
+        double denisIncrease = denis + denis * 0.1;
+        double christinaIncrease = christina + christina * 0.1;
+        double yearMasha = mashaIncrease * 12 - masha * 12;
+        double yearDenis = denisIncrease * 12 - denis * 12;
+        double yearChristina = christinaIncrease * 12 - christina * 12;
+        System.out.println("Маша теперь получает " + mashaIncrease + " рублей. Годовой доход вырос на "
+                + yearMasha + " рублей");
+        System.out.println("Денис теперь получает " + denisIncrease + " рублей. Годовой доход вырос на "
+                + yearDenis + " рублей");
+        System.out.println("Кристина теперь получает " + christinaIncrease + " рублей. Годовой доход вырос на "
+                + yearChristina + " рублей");
 
     }
 }
